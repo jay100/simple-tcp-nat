@@ -1,6 +1,6 @@
 ﻿## Simple Tcp NAT 基于tcp 穿透 
  
-测试环境 电信网络
+网络环境 电信 
 
 - TestServer.class 在服务器运行
 
