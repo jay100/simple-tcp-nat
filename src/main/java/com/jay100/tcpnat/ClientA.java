@@ -124,7 +124,7 @@ public class ClientA{
                         else if(in.equals("sendFile")){ //发送一个文件试试
                             String[] strings = in.split("");
                             System.out.println("请输入文件路径：");
-                            String fileName =  "D:\\java\\workspace\\tcptunnel-nat\\大文件\\2534.mp4";//scanner.next();
+                            String fileName =  scanner.next();
                             p.write("sendFile");
                             p.println();
                             p.flush();
